@@ -1,0 +1,172 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Aymard Moyo
+  tagline: Full Stack Developer
+  avatar: aymard.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: king.kemsty@gmail.com
+  phone: (+237)699-940-037
+  website: www.kingkemsty.codes #do not add http://
+  linkedin: kingkemsty
+  github: kemsty2
+  telegram: kingkemsty
+  twitter: "@kemsty2"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+  languages:
+    - idiom: Français
+      level: Natif
+
+    - idiom: Anglais
+      level: Intermédiaire
+
+  interests:
+    - item: BasketBall
+      link:
+
+    - item: Manga, Série, Film
+      link:
+
+    - item: FootBall
+      link:
+
+    - item: Lecture
+      link:
+
+    - item: Voyage, Tourisme
+      link:
+
+    - item: Musique
+      link:
+
+career-profile:
+  title: Profil
+  summary: |
+    Ingénieur Logiciel, avec plus de 4 ans d'expérience dans l'analyse des besoins métiers,
+    la conception et l'implémentation d'application Web et WebApi. Solide compétence des 
+    technologies .Net Core, .Net, AzureDevOps, MS SQL, EF Core, Kubernetes, ainsi que de la méthodologie 
+    de développement Agile (Scrum). Créatif, passionné, rigoureux et disposant d'une grande capacité d'adaptation 
+    et d'apprentissage je prends à cœur d'assurer la robustesse, la scalabilité et le monitoring des applications que je développe.
+education:
+  - degree: Diplôme d'Ingénieur de Conception en Génie Informatique
+    university: École Nationale Supérieure Polytechnique
+    time: Sept. 2013 - Sept 2019
+    details: |
+      Vous pouvez retrouver le syllabus de ma formation à 
+      cette addresse [https://polytechnique.cm/genie-informatique-grille-des-programmes/](https://polytechnique.cm/genie-informatique-grille-des-programmes/)
+
+  - degree: Baccalauréat Scientifique
+    university: Bristol University
+    time: 2007 - 2013
+    details: |
+      Mention : Bien
+
+experiences:
+  - role: Ingénieur SI
+    time: Janv. 2019 - Présent
+    company: Orange, Cameroun
+    details: |
+      *Projets Concrétisés*
+      1. *Qu@lipro*
+      - *Intitulé* : Plateforme web de gestion de la cartographie et d'évaluation de risques.
+      - *Fonction* : Lead FullStack .Net Développeur
+      - *Période* : Janvier 2020 - Avril 2021
+      - *Durée* : 1An 4 Mois
+      - *Tâches effectuées* : Analyse des besoins métiers, Conception et Implémentation du Backend de l'application, Management d'une équipe de 4, Code Review et Répartition des tâches, Mise en place des pipelines d'intégration et de déploiement continue, Rédaction des tests d'intégrations. 
+      - *Outils Utilisés* : Azure Devops, C#, .Net Core, MySql, Ef Core, ReactJs, .Net Core, SharePoint, Git, Scrum, Azure DevOps, Kubernetes, Docker, Keycloak.
+
+  - role: Ingénieur Informaticien
+    time: Août 2019 - Janvier 2020
+    company: Bolloré Africa & Logistics, Cameroun
+    details: |
+      1. *Tembo - Facture Fournisseur*
+      - *Intitulé* : Dématérialisation du processus métier de gestion des factures fournisseurs
+      - *Fonction* : OnBase Développeur
+      - *Période* : Août 2019 - Janvier 2020
+      - *Durée* : 4 Mois
+      - *Tâches effectuées* : Analyse des besoins métiers, Design et Intégration des Workflows dans OnBase, Design d'interface. 
+      - *Outils Utilisés* : OnBase, Html, Css, Bizagi, BMPN, Scrum, C#. 
+        
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+
+    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+    - title: A syntax directed compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: Javascript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
